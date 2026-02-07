@@ -4,7 +4,7 @@ import { Menu, X, Search, Heart, ShoppingBag, User, LogOut } from "lucide-react"
 import { useAuth } from "@/hooks/useAuth";
 import { useCart } from "@/hooks/useCart";
 import { useWishlist } from "@/hooks/useWishlist";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/Sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
