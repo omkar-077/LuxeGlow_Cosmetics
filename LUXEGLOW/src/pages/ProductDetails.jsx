@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowLeft, Heart, Minus, Plus, ShoppingBag, Star } from "lucide-react";
-import { products } from "@/data/products";
+import { products } from "@/data/product";
 import { useCart } from "@/hooks/useCart";
 import { useWishlist } from "@/hooks/useWishlist";
 import { formatPrice, calculateDiscount } from "@/utils/helpers";
