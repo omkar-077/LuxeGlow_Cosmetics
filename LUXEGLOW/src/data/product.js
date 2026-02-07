@@ -1,0 +1,191 @@
+import product1 from "@/assets/images/product-1.jpg";
+import product2 from "@/assets/images/product-2.jpg";
+import product3 from "@/assets/images/product-3.jpg";
+import product4 from "@/assets/images/product-4.jpg";
+import product5 from "@/assets/images/product-5.jpg";
+import product6 from "@/assets/images/product-6.jpg";
+import product7 from "@/assets/images/product-7.jpg";
+import product8 from "@/assets/images/product-8.jpg";
+
+export const categories = ["All", "Lips", "Face", "Eyes", "Skincare", "Fragrance"];
+
+export const products = [
+  {
+    id: 1,
+    name: "Velvet Matte Lipstick",
+    price: 38,
+    originalPrice: 45,
+    image: product1,
+    category: "Lips",
+    description:
+      "A richly pigmented matte lipstick that glides on like velvet. Infused with jojoba oil for all-day comfort without drying. Available in 12 stunning shades from nude to bold.",
+    shortDescription: "Richly pigmented matte formula with all-day comfort",
+    rating: 4.8,
+    reviews: 234,
+    inStock: true,
+    tags: ["bestseller", "vegan"],
+    isBestseller: true,
+  },
+  {
+    id: 2,
+    name: "Radiance Liquid Foundation",
+    price: 52,
+    image: product2,
+    category: "Face",
+    description:
+      "A buildable, medium-to-full coverage liquid foundation with a luminous finish. Enriched with hyaluronic acid to hydrate and plump skin for up to 24 hours.",
+    shortDescription: "Luminous finish with 24-hour hydration",
+    rating: 4.7,
+    reviews: 189,
+    inStock: true,
+    tags: ["hydrating", "buildable"],
+    isBestseller: true,
+  },
+  {
+    id: 3,
+    name: "24K Gold Serum",
+    price: 89,
+    originalPrice: 110,
+    image: product3,
+    category: "Skincare",
+    description:
+      "Luxury anti-aging serum infused with real 24K gold particles and retinol. Visibly reduces fine lines and wrinkles while imparting a radiant golden glow to your complexion.",
+    shortDescription: "Anti-aging luxury with real gold particles",
+    rating: 4.9,
+    reviews: 312,
+    inStock: true,
+    tags: ["luxury", "anti-aging"],
+    isBestseller: true,
+    isNew: true,
+  },
+  {
+    id: 4,
+    name: "Midnight Smoky Eye Palette",
+    price: 65,
+    image: product4,
+    category: "Eyes",
+    description:
+      "12 intensely pigmented eyeshadow shades ranging from deep midnight blues to shimmering golds. Buttery-smooth formula blends effortlessly for a dramatic smoky eye look.",
+    shortDescription: "12 pigmented shades for dramatic smoky looks",
+    rating: 4.6,
+    reviews: 156,
+    inStock: true,
+    tags: ["pigmented", "blendable"],
+  },
+  {
+    id: 5,
+    name: "Rose Petal Blush Duo",
+    price: 42,
+    image: product5,
+    category: "Face",
+    description:
+      "A duo of complementary blush shades inspired by rose petals. Silky powder formula that builds beautifully for a natural flush or a more dramatic look.",
+    shortDescription: "Complementary duo for a natural flush",
+    rating: 4.7,
+    reviews: 98,
+    inStock: true,
+    tags: ["natural", "buildable"],
+    isNew: true,
+  },
+  {
+    id: 6,
+    name: "Silk Volume Mascara",
+    price: 28,
+    image: product6,
+    category: "Eyes",
+    description:
+      "Volumizing mascara with a unique silk fiber formula that adds dramatic length and fullness without clumping. Waterproof and smudge-proof for all-day wear.",
+    shortDescription: "Dramatic volume with silk fiber formula",
+    rating: 4.5,
+    reviews: 267,
+    inStock: true,
+    tags: ["waterproof", "volumizing"],
+    isBestseller: true,
+  },
+  {
+    id: 7,
+    name: "Honey Glow Highlighter",
+    price: 45,
+    originalPrice: 55,
+    image: product7,
+    category: "Face",
+    description:
+      "A baked highlighter with a warm honey-gold sheen. Infused with real honey extract for a dewy, luminous glow. Can be applied wet or dry for different intensities.",
+    shortDescription: "Warm honey-gold sheen for luminous skin",
+    rating: 4.8,
+    reviews: 145,
+    inStock: true,
+    tags: ["glow", "versatile"],
+  },
+  {
+    id: 8,
+    name: "Luxe Oud Eau de Parfum",
+    price: 120,
+    image: product8,
+    category: "Fragrance",
+    description:
+      "An opulent fragrance built around rare oud wood, balanced with Bulgarian rose and warm amber. A sophisticated scent that lingers for hours, leaving an unforgettable impression.",
+    shortDescription: "Opulent oud & rose fragrance",
+    rating: 4.9,
+    reviews: 87,
+    inStock: true,
+    tags: ["luxury", "long-lasting"],
+    isNew: true,
+  },
+  {
+    id: 9,
+    name: "Satin Lip Gloss",
+    price: 25,
+    image: product1,
+    category: "Lips",
+    description:
+      "A high-shine lip gloss with a non-sticky satin finish. Enriched with vitamin E and shea butter for nourishing hydration and a plumping effect.",
+    shortDescription: "High-shine, non-sticky with plumping effect",
+    rating: 4.4,
+    reviews: 178,
+    inStock: true,
+    tags: ["hydrating", "plumping"],
+  },
+  {
+    id: 10,
+    name: "Hydra Boost Moisturizer",
+    price: 68,
+    image: product3,
+    category: "Skincare",
+    description:
+      "A deeply hydrating moisturizer with a feather-light texture. Powered by hyaluronic acid and ceramides to restore the skin barrier and lock in moisture for 72 hours.",
+    shortDescription: "72-hour deep hydration with ceramides",
+    rating: 4.7,
+    reviews: 203,
+    inStock: true,
+    tags: ["hydrating", "lightweight"],
+  },
+  {
+    id: 11,
+    name: "Precision Eye Liner",
+    price: 22,
+    image: product6,
+    category: "Eyes",
+    description:
+      "An ultra-fine felt-tip eye liner for precise application. Waterproof and fade-resistant formula that stays sharp all day. Perfect for cat-eye and graphic liner looks.",
+    shortDescription: "Ultra-fine tip for precise graphic lines",
+    rating: 4.6,
+    reviews: 134,
+    inStock: true,
+    tags: ["waterproof", "precise"],
+  },
+  {
+    id: 12,
+    name: "Nude Glow Setting Powder",
+    price: 35,
+    image: product5,
+    category: "Face",
+    description:
+      "A finely-milled translucent setting powder that locks in makeup without caking. Blurs pores and fine lines while allowing skin to breathe naturally.",
+    shortDescription: "Translucent formula that blurs and sets",
+    rating: 4.5,
+    reviews: 112,
+    inStock: false,
+    tags: ["mattifying", "lightweight"],
+  },
+];
