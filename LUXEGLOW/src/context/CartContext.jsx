@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect, useCallback } from "react";
-import { products } from "@/data/product"; // optional import only if used elsewhere
+import { products } from "@/data/product"; 
 
 export const CartContext = createContext(null);
 

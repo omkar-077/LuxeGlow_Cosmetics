@@ -4,6 +4,9 @@ import Layout from "@/components/layout/Layout";
 import ProtectedRoute from "@/routes/ProtectedRoutes";
 import Loader from "@/components/common/Loader";
 
+
+//  Show pages only when user visits it.. 
+
 const Home = lazy(() => import("@/pages/Home"));
 const Shop = lazy(() => import("@/pages/Shop"));
 const ProductDetails = lazy(() => import("@/pages/ProductDetails"));
@@ -31,6 +34,9 @@ const AppRoutes = () => (
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
+
+
+         {/* Protected routes accessible only when logged in, otherwise it will navigate to Login */}
 
         <Route
           path="/cart"
