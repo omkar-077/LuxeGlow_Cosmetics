@@ -219,7 +219,7 @@ React • JavaScript • Tailwind • Framer Motion • Shadcn UI
 
 ### 🛒 Shopping Cart
 
-![Cart Page](screenshots/cart.png)
+![Cart Page](ss/Shop.png)
 
 ---
 
