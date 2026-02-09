@@ -201,7 +201,7 @@ React • JavaScript • Tailwind • Framer Motion • Shadcn UI
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](ss/Home.png)
 
 ---
 
