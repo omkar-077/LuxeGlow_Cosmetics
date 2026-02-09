@@ -199,51 +199,13 @@ React • JavaScript • Tailwind • Framer Motion • Shadcn UI
 
 > A glimpse into LuxeGlow’s luxury dark-mode UI and smooth shopping experience
 
-### 🏠 Home Page
-
-![Home Page](ss/Home.png)
-
----
-
-### 🛍 Shop Page (Filters + Search + Sorting)
-
-![Shop Page](screenshots/shop.png)
-
----
-
-### 💄 Product Details
-
-![Product Details](screenshots/product-details.png)
-
----
-
-### 🛒 Shopping Cart
-
-![Cart Page](ss/Shop.png)
-
----
-
-### ❤️ Wishlist
-
-![Wishlist Page](screenshots/wishlist.png)
-
----
-
-### 🔐 Login & Signup
-
-![Login Page](ss/create_Account.png)
- 
-
----
-
-### 📱 Contact 
-
-![Mobile Navigation](ss/Contact_us.png)
-
----
-
- 
-
-
+| Page | Screenshot |
+|------|-----------|
+| Home | <img src="ss/Home.png" width="400"/> |
+| Shop | <img src="ss/shop.png" width="400"/> |
+| Product | <img src="screenshots/product-details.png" width="400"/> |
+| Cart | <img src="screenshots/cart.png" width="400"/> |
+| Wishlist | <img src="screenshots/wishlist.png" width="400"/> |
+| Auth | <img src="screenshots/login.png" width="190"/> <img src="screenshots/signup.png" width="190"/> |
 
  
