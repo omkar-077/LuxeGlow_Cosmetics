@@ -231,8 +231,8 @@ React • JavaScript • Tailwind • Framer Motion • Shadcn UI
 
 ### 🔐 Login & Signup
 
-![Login Page](screenshots/login.png)
-![Signup Page](screenshots/signup.png)
+![Login Page](ss/create_Account.png)
+ 
 
 ---
 
