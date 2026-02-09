@@ -236,9 +236,9 @@ React • JavaScript • Tailwind • Framer Motion • Shadcn UI
 
 ---
 
-### 📱 Mobile View
+### 📱 Contact 
 
-![Mobile Navigation](screenshots/mobile-nav.png)
+![Mobile Navigation](ss/Contact_us.png)
 
 ---
 
