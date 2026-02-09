@@ -202,10 +202,8 @@ React • JavaScript • Tailwind • Framer Motion • Shadcn UI
 | Page | Screenshot |
 |------|-----------|
 | Home | <img src="ss/Home.png" width="400"/> |
-| Shop | <img src="ss/shop.png" width="400"/> |
-| Product | <img src="screenshots/product-details.png" width="400"/> |
-| Cart | <img src="screenshots/cart.png" width="400"/> |
-| Wishlist | <img src="screenshots/wishlist.png" width="400"/> |
-| Auth | <img src="screenshots/login.png" width="190"/> <img src="screenshots/signup.png" width="190"/> |
+| Shop | <img src="ss/Shop.png" width="400"/> |
+| Contact us | <img src="ss/Contact_us.png" width="400"/> |
+| Login | <img src="ss/create_Account.png" width="400"/> |
 
  
